@@ -196,7 +196,76 @@ a:hover, a:active {
     border-radius: 147px;
 }
 
+#p8 {
+    width: 466px;
+    height: 177px;
+    top: 66px;
+    font-family: Abril;
+    font-size: 80px;
+}
 
+.cat {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 196px;
+    top: 204px;
+}
 
+.foot {
+    position: absolute;
+    width: 1536px;
+    height: 60px;
+    left: 0px;
+    top: 669px;
+    background: #C7B274;
+}
 
+.mid {
+    position: absolute;
+    width: 20px;
+    height: 456px;
+    left: 726px;
+    top: 200px;
+    background: #6A5000;
+}
 
+.desc {
+    position: absolute;
+    width: 433px;
+    height: 328px;
+    left: 766px;
+    font-family: Goudy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#p9 {
+    top: 170px;
+}
+
+#p10 {
+    top: 353px;
+}
+
+.bottom {
+    position: absolute;
+    width: 154px;
+    height: 57px;
+    left: 1300px;
+    top: 672px;
+    font-family: Jockey;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6A5000;
+}
