@@ -13,60 +13,49 @@
     font-family: Goudy;
 }
 
-.rect {
+.lbrown {
     position: absolute;
-    width: 1547px;
-    height: 120px;
-    left: -11px;
+    width: 461px;
+    height: 103px;
+    left: 1075px;
+    top: 0px;
+    background: #C7B274;
+}
+
+.black {
+    position: absolute;
+    width: 20px;
+    height: 103px;
+    left: 1030px;
+    top: 0px;
+    background: #000000;
+}
+
+.brown {
+    position: absolute;
+    width: 1006px;
+    height: 103px;
+    left: 0px;
     top: 0px;
     background: #6A5000;
-  }
+}
 
-  .udd {
-    background-color: #f0f0f0;
+.techyver {
+    box-sizing: border-box;
     position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 196px;
-    top: 17px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-  .udd img {
-    width: 80%;
-    height: auto;
-    border-radius: 50%;
-}
-
-  .site {
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 291px;
-    top: 17px;
-    background-color: #f0f0f0;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.site img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 159px;
+    height: 77px;
+    left: 170px;
+    top: 13px;
+    border: 2px solid #000000;
+    background: linear-gradient(90deg, #808080, #E5E4E2);
 }
 
 .head {
     position: absolute;
-    width: 154px;
+    width: 146px;
     height: 57px;
-    top: 32px;
+    top: 22px;
     font-family: Jockey;
     font-style: normal;
     font-weight: 400;
@@ -80,26 +69,15 @@
 }
 
 #p1 {
-    left: 472px;
+    left: 410px;
 }
 
 #p2 {
-    left: 672px;
+    left: 605px;
 }
 
 #p3 {
-    left: 872px;
-}
-
-.techyver {
-    box-sizing: border-box;
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    left: 1100px;
-    top: 8.5px;
-    border: 2px solid #000000;
-    background: linear-gradient(90deg, #808080, #E5E4E2);
+    left: 802px;
 }
 
 a:link, a:visited {
@@ -110,6 +88,46 @@ a:link, a:visited {
 a:hover, a:active {
     color: black;
     text-decoration: none;
+}
+
+.udd {
+    background-color: #f0f0f0;
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 1170px;
+    top: 9px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+  .udd img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.site {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 1265px;
+    top: 9px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -127,7 +145,7 @@ a:hover, a:active {
 #p5 {
     width: 466px;
     height: 177px;
-    top: 160px;
+    top: 145px;
     font-family: Abril;
     font-size: 96px;
 }
@@ -135,7 +153,7 @@ a:hover, a:active {
 #p6 {
     width: 433px;
     height: 328px;
-    top: 300px;
+    top: 288px;
     font-family: Goudy;
     font-size: 30px;
     line-height: 1.5;
@@ -146,7 +164,7 @@ a:hover, a:active {
     width: 154px;
     height: 57px;
     left: 265px;
-    top: 600px;
+    top: 592px;
     border: 3px solid #000000;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -172,7 +190,7 @@ a:hover, a:active {
     width: 551px;
     height: 518px;
     left: 766px;
-    top: 170px;
+    top: 160px;
     border: 4px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 147px;
