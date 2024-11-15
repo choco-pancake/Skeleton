@@ -1,3 +1,5 @@
+/*HOME*/
+
 @font-face {
     src: url(fonts/JockeyOne.ttf);
     font-family: Jockey;
@@ -11,6 +13,19 @@
 @font-face {
     src: url(fonts/GoudyBookletter1911.ttf);
     font-family: Goudy;
+}
+
+@font-face {
+    src: url(fonts/Fraunces.ttf);
+    font-family: Fraunces;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    z-index: 1000;
 }
 
 .lbrown {
@@ -130,10 +145,9 @@ a:hover, a:active {
     object-fit: cover;
 }
 
-
 .body {
     position: absolute;
-    left: 196px;
+    left: 250px;
     font-style: normal;
     font-weight: 400;
     line-height: 80px;
@@ -145,7 +159,7 @@ a:hover, a:active {
 #p5 {
     width: 466px;
     height: 177px;
-    top: 145px;
+    top: 140px;
     font-family: Abril;
     font-size: 96px;
 }
@@ -153,18 +167,26 @@ a:hover, a:active {
 #p6 {
     width: 433px;
     height: 328px;
-    top: 288px;
+    top: 263px;
     font-family: Goudy;
     font-size: 30px;
     line-height: 1.5;
+}
+
+.black-link:link, .black-link:visited {
+    color: black;
+}
+
+.black-link:hover, .black-link:active {
+    color: white;
 }
 
 .button {
     position: absolute;
     width: 154px;
     height: 57px;
-    left: 265px;
-    top: 592px;
+    left: 330px;
+    top: 550px;
     border: 3px solid #000000;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -180,7 +202,7 @@ a:hover, a:active {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: black;
     background: #C7B274;
 }
 
@@ -190,16 +212,18 @@ a:hover, a:active {
     width: 551px;
     height: 518px;
     left: 766px;
-    top: 160px;
+    top: 140px;
     border: 4px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 147px;
 }
 
+/*ABOUT*/
+
 #p8 {
     width: 466px;
     height: 177px;
-    top: 66px;
+    top: 75px;
     font-family: Abril;
     font-size: 80px;
 }
@@ -208,24 +232,15 @@ a:hover, a:active {
     position: absolute;
     width: 450px;
     height: 450px;
-    left: 196px;
+    left: 250px;
     top: 204px;
-}
-
-.foot {
-    position: absolute;
-    width: 1536px;
-    height: 60px;
-    left: 0px;
-    top: 669px;
-    background: #C7B274;
 }
 
 .mid {
     position: absolute;
     width: 20px;
     height: 456px;
-    left: 726px;
+    left: 780px;
     top: 200px;
     background: #6A5000;
 }
@@ -234,7 +249,7 @@ a:hover, a:active {
     position: absolute;
     width: 433px;
     height: 328px;
-    left: 766px;
+    left: 870px;
     font-family: Goudy;
     font-style: normal;
     font-weight: 400;
@@ -246,19 +261,44 @@ a:hover, a:active {
 }
 
 #p9 {
-    top: 170px;
+    top: 172px;
 }
 
 #p10 {
     top: 353px;
 }
 
-.bottom {
+footer {
+    background: linear-gradient(to right, #6A5000, #C7B274);
+    text-align: center;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    font-family: Jockey;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*CLICK HERE*/
+
+#p11 {
     position: absolute;
-    width: 154px;
+    width: 308px;
     height: 57px;
-    left: 1300px;
-    top: 672px;
+    left: 177px;
+    top: 160px;
     font-family: Jockey;
     font-style: normal;
     font-weight: 400;
@@ -267,5 +307,246 @@ a:hover, a:active {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6A5000;
+    color: #000000;
+}
+
+.label {
+    font-family: Fraunces;
+}
+
+#p12 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+    left: 196px;
+    top: 230px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.row1 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 273px;
+}
+
+#cat1 { 
+    left: 196px;
+}
+
+#cat2 {
+    left: 386.42px;
+}
+
+#cat3 {
+    left: 576px;
+}
+
+#cat4 {
+    left: 766px;
+}
+
+#cat5 {
+    left: 956px;
+}
+
+#cat6 {
+    left: 1146px;
+}
+
+.row2 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 531px;
+}
+
+#cat7 {
+    left: 196px;
+}
+
+#cat8 {
+    left: 386px;
+}
+
+#cat9 {
+    left: 576px;
+}
+
+#cat10 {
+    left: 766px;
+}
+
+#cat11 {
+    left: 956px;
+}
+
+#cat12 {
+    left: 1146px;
+}
+
+.row3 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 781px;
+}
+
+#cat13 {
+    left: 196px;
+}
+
+#cat14 {
+    left: 386px;
+    top: 781px;
+}
+
+#cat15 {
+    left: 576px;
+    top: 781px;
+}
+
+#cat16 {
+    left: 766px;
+    top: 781px;
+}
+
+#cat17 {
+    left: 956px;
+    top: 781px;
+}
+
+#cat18 {
+    left: 1146px;
+    top: 781px;
+}
+
+.row4 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 1039px;
+}
+
+#cat19 {
+    left: 196px;
+}
+
+#cat20 {
+    left: 386px;
+    top: 1039px;
+}
+
+#cat21 {
+    left: 576px;
+    top: 1039px;
+}
+
+#cat22 {
+    left: 766px;
+    top: 1039px;
+}
+
+#cat23 {
+    left: 956px;
+    top: 1039px;
+}
+
+#cat24 {
+    left: 1146px;
+    top: 1039px;
+}
+
+.row5 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 1297px;
+}
+
+#cat25 {
+    left: 196px;
+
+}
+
+#cat26 {
+    left: 386px;
+}
+
+#cat27 {
+    left: 574px;
+}
+
+#cat28 {
+    left: 766px;
+}
+
+#cat29 {
+    left: 954px;
+}
+
+#cat30 {
+    left: 1146px;
+}
+
+.row6 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 1555px;
+}
+
+#cat31 {
+    left: 386px;
+}
+
+#cat32 {
+    left: 576px;
+}
+
+#cat33 {
+    left: 576px;
+}
+
+#cat34 {
+    left: 766px;
+}
+
+#cat35 {
+    left: 958px;
+}
+
+#cat36 {
+    left: 1146px;
+}
+
+.row7 {
+    position: absolute;
+    width: 170px;
+    height: 161px;
+    top: 1813px;
+}
+
+#cat37 {
+    left: 196px;
+}
+
+.cat38 {
+    left: 386px;
+}
+
+.cat39 {
+    left: 576px;
+}
+
+.cat40 {
+    left: 766px;
 }
