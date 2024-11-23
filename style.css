@@ -654,9 +654,7 @@ input::placeholder {
     color: #000000;
 }
 
-.profiles {
-    display: block;
-}
+.profiles {display: block;}
 
 .profiles img {
     display: block;
@@ -676,21 +674,13 @@ input::placeholder {
     border-radius: 44px;
 }
 
-#yvonne {
-    top: 368px;
-}
+#yvonne {top: 368px;}
 
-#jhayr {
-    top: 455px;
-}
+#jhayr {top: 455px;}
 
-#jhezron {
-    top: 542px;
-}
+#jhezron {top: 542px;}
 
-#contact {
-    height: 950px;
-}
+#contact {height: 950px;}
 
 .details {
     position: absolute;
@@ -724,41 +714,24 @@ input::placeholder {
     color: #6A5000;
 }
 
-#p19 {
-    top: 363px;
+#p19 {top: 363px;}
+
+#p19_2 {top: 381px;
 }
 
-#p19_2 {
-    top: 381px;
-}
+#p19_3 {top: 398px;}
 
-#p19_3 {
-    top: 398px;
-}
+#p20 {top: 451px;}
 
-#p20 {
-    top: 451px;
-}
+#p20_2 {top: 469px;}
 
-#p20_2 {
-    top: 469px;
-}
+#p20_3 {top: 486px;}
 
-#p20_3 {
-    top: 486px;
-}
+#p21 {top: 539px;}
 
-#p21 {
-    top: 539px;
-}
+#p21_2 {top: 557px;}
 
-#p21_2 {
-    top: 557px;
-}
-
-#p21_3 {
-    top: 574px;
-}
+#p21_3 {top: 574px;}
 
 .contacts {
     position: absolute;
@@ -804,9 +777,7 @@ input::placeholder {
     color: black;
 }
 
-#p23 {
-    top: 748px;
-}
+#p23 {top: 748px;}
 
 #p23_3 {
     width: 248px;
@@ -846,9 +817,7 @@ input::placeholder {
     text-align: justify;
 }
 
-#p24 {
-    text-indent: 0px;
-}
+#p24 {text-indent: 0px;}
 
 #p24_2, #p24_3, #p24_4, #p24_5, #p24_6, #p24_7 {
     width: 1120px;
@@ -861,29 +830,17 @@ input::placeholder {
     text-indent: 100px;
 }
 
-#p24_3 {
-    top: 500px;
-}
+#p24_3 {top: 500px;}
 
-#p24_4 {
-    top: 710px;
-}
+#p24_4 {top: 710px;}
 
-#p24_5 {
-    top: 920px;
-}
+#p24_5 {top: 920px;}
 
-#p24_6 {
-    top: 1110px;
-}
+#p24_6 {top: 1110px;}
 
-#p24_7 {
-    top: 1250px;
-}
+#p24_7 {top: 1250px;}
 
-.tip {
-    height: 1540px;
-}
+.tip {height: 1540px;}
 
 .back {
     position: absolute;
@@ -902,13 +859,9 @@ input::placeholder {
     color: #6A5000;
 }
 
-.backbutton:link, .backbutton:visited {
-    color: #6A5000;
-}
+.backbutton:link, .backbutton:visited {color: #6A5000;}
 
-.backbutton:hover, .backbutton:active {
-    color: black;
-}
+.backbutton:hover, .backbutton:active {color: black;}
 
 /* CATS */
 
@@ -970,17 +923,11 @@ input::placeholder {
     text-indent: 0px;
 }
 
-#def1 {
-    top: 109px;
-}
+#def1 {top: 109px;}
 
-#per1 {
-    top: 226px;
-}
+#per1 {top: 226px;}
 
-#def1_2 {
-    top: 372px;
-}
+#def1_2 {    top: 372px;}
 
 .column1, .column2 {
     position: absolute;
@@ -1018,9 +965,7 @@ input::placeholder {
     left: 905px;
 }
 
-#eq2 {
-    top: 865px;
-}
+#eq2 {top: 865px;}
 
 #eq3 {
     left: 420px;
@@ -1032,34 +977,115 @@ input::placeholder {
     left: 860px;
 }
 
-#nb2 {
-    top: 1099px;
-}
+#nb2 {top: 1099px;}
 
 #name2 {
     top: 1093px;
     left: 227px;
 }
 
-#cat2 img {
-    top: 1211px;
+#cat2 img {top: 1211px;}
+
+#def2 {top: 1095px;}
+
+#per2 {top: 1266px;}
+
+#def1_3 {top: 1412px;}
+
+#c3 {top: 1750px;}
+
+#eq6 {top: 1771px;}
+
+#eq7 {top: 1865px;}
+
+#eq8 {
+    top: 1954px;
+    left: 420px;
 }
 
-#def2 {
-    top: 1095px;
+#c4 {top: 1715px;}
+
+#eq9 {top: 1770px;}
+
+#eq10 {
+    top: 1860px;
+    left: 860px;
 }
 
-#per2 {
-    top: 1266px;
+#nb3 {
+    height: 110px;
+    top: 2099px;
 }
 
-#def1_3 {
-    top: 1392px;
+#name3 {
+    top: 2103px;
+    left: 228px;
+    line-height: 50px;;
+}
+
+#cat3 img {top: 2231px;}
+
+#def3 {top: 2073px;}
+
+#per3 {top: 2196px;}
+
+#def1_4 {top: 2337px;}
+
+#c5 {top: 2715px;}
+
+#eq11 {top: 2737px;}
+
+#eq12 {top: 2827px;}
+
+#eq13 {
+    top: 2916px;
+    left: 420px;
+}
+
+#c6 {top: 2675px;}
+
+#eq14 {top: 2729px;}
+
+#eq15 {
+    left: 862px;
+    top: 2820px;
+}
+
+#nb4 {top: 3050px;}
+
+#name4 {
+    left: 300px;
+    top: 3044px;
+}
+
+#cat4 img {top: 3161px;}
+
+#def4 {top: 2991px;}
+
+#per4 {top: 3106px;}
+
+#def1_5 {top: 3220px;}
+
+#c7 {top: 3650px;}
+
+#eq16 {top: 3673px;}
+
+#eq17 {top: 3763px;}
+
+#eq18 {
+    left: 420px;
+    top: 3852px;
+}
+
+#c8 {top: 3610px;}
+
+#eq19 {top: 3663px;}
+
+#eq20 {
+    left: 860px;
+    top: 3756px;
 }
 
 
 
-
-
-
-
+.catsscroll {height: 5000px;}
