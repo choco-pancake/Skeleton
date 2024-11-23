@@ -1041,6 +1041,21 @@ input::placeholder {
     left: 227px;
 }
 
+#cat2 img {
+    top: 1211px;
+}
+
+/* image
+
+position: absolute;
+width: 419.7px;
+height: 404.93px;
+left: 198.06px;
+top: 1211px;
+
+background: url(image.png);
+transform: rotate(0.15deg);
+*/
 
 
 
