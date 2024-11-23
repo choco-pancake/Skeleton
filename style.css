@@ -1045,17 +1045,18 @@ input::placeholder {
     top: 1211px;
 }
 
-/* image
+#def2 {
+    top: 1095px;
+}
 
-position: absolute;
-width: 419.7px;
-height: 404.93px;
-left: 198.06px;
-top: 1211px;
+#per2 {
+    top: 1266px;
+}
 
-background: url(image.png);
-transform: rotate(0.15deg);
-*/
+#def1_3 {
+    top: 1392px;
+}
+
 
 
 
