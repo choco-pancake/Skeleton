@@ -963,16 +963,19 @@ input::placeholder {
     text-indent: 100px;
 }
 
-#def1 {
-    top: 109px;
-}
-
 .per {
     font-family: Jockey;
     font-size: 35px;
     color: #6A5000;
-    top: 226px;
     text-indent: 0px;
+}
+
+#def1 {
+    top: 109px;
+}
+
+#per1 {
+    top: 226px;
 }
 
 #def1_2 {
@@ -995,6 +998,12 @@ input::placeholder {
     color: #6A5000;
 }
 
+.column2 {
+    top: 718px;
+    height: 240px;
+    left: 764px;
+}
+
 .equal1, .equal2 {
     position: absolute;
     font-family: Goudy;
@@ -1004,6 +1013,11 @@ input::placeholder {
     color: black;
 }
 
+.equal2 {
+    top: 772px;
+    left: 905px;
+}
+
 #eq2 {
     top: 865px;
 }
@@ -1011,17 +1025,6 @@ input::placeholder {
 #eq3 {
     left: 420px;
     top: 956px;
-}
-
-.column2 {
-    top: 718px;
-    height: 240px;
-    left: 764px;
-}
-
-.equal2 {
-    top: 772px;
-    left: 905px;
 }
 
 #eq5 {
