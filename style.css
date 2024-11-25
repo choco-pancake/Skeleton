@@ -55,7 +55,7 @@ header {
     height: 103px;
     left: 0px;
     top: 0px;
-    background: #6A5000;
+    background: #836201;
     z-index: 1000;
 }
 
@@ -1441,5 +1441,114 @@ input::placeholder {
 
 #eq70 {
     top: 13356px;
+    left: 863px;
+}
+
+#nb15 {top: 13565px;}
+
+#name15 {
+    top: 13557px;
+    left: 225px;
+}
+
+#cat15 img {top: 13675px;}
+
+#def15 {top: 13517px;}
+
+#def1_16 {top: 13715px;}
+
+#per15 {top: 13623px;}
+
+#c29 {top: 14120px;}
+
+#c30 {top: 14089px;}
+
+#eq71 {top: 14145px;}
+
+#eq72 {top: 14235px;}
+
+#eq73 {
+    top: 14324px;
+    left: 422px;
+}
+
+#eq74 {top: 14145px;}
+
+#eq75 {
+    top: 14235px;
+    left: 863px;
+}
+
+#nb16 {top: 14450px;}
+
+#name16 {top: 14441px;}
+
+#cat16 img {top: 14560px;}
+
+#def16 {top: 14396px;}
+
+#def1_17 {top: 14620px;}
+
+#per16 {top: 14515px;}
+
+#c31 {top: 14995px;}
+
+#c32 {top: 14965px;}
+
+#eq76 {top: 15015px;}
+
+#eq77 {top: 15110px;}
+
+#eq78 {
+    top: 15200px;
+    left: 422px;
+}
+
+#eq79 {top: 15021px;}
+
+#eq80 {
+    top: 15111px;
+    left: 863px;
+}
+
+#nb17 {
+    top: 15345px;
+    height: 113px;
+}
+
+#name17 {
+    top: 15349px;
+    line-height: 50px;
+    left: 231px;
+}
+
+#cat17 img {top: 15468px;}
+
+#def17 {top: 15342px;}
+
+#def1_18 {top: 15640px;}
+
+#per17 {top: 15490px;}
+
+#c33 {top: 15995px;}
+
+#c34 {top: 15966px;}
+
+#eq81 {top: 16020px;}  
+
+#eq82 {top: 16110px;}
+
+#eq83 {
+    top: 16200px;
+    left: 422px;
+}
+
+#eq84 {
+    top: 16029px;
+    line-height: 28px;
+}
+
+#eq85 {
+    top: 16110px;
     left: 863px;
 }
