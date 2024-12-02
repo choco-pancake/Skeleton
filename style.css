@@ -1726,7 +1726,8 @@ input::placeholder {
 
 #eq104 {
     top: 19695px;
-    line-height: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
 }
 #eq105 {
     top: 19779px;
@@ -1930,9 +1931,9 @@ input::placeholder {
 
 #def27 {top: 24630px;}
 
-#def1_28 {top: 24880px;}
-
 #per27 {top: 24790px;}
+
+#def1_28 {top: 24880px;}
 
 #c53 {top: 25195px;}
 
@@ -1968,7 +1969,11 @@ input::placeholder {
 
 #cat28 img {top: 25687px;}
 
-#def28 {top: 25615px;}
+#def28 {top: 25520px;}
+
+#per28 {top: 25635px;}
+
+#def1_29 {top: 25750px;}
 
 #c55 {top: 26120px;}
 
