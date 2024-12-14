@@ -89,17 +89,11 @@ header {
     z-index: 1000;
 }
 
-#p1 {
-    left: 410px;
-}
+#p1 {left: 410px;}
 
-#p2 {
-    left: 605px;
-}
+#p2 {left: 605px;}
 
-#p3 {
-    left: 802px;
-}
+#p3 {left: 802px;}
 
 a:link, a:visited {
     color: white;
@@ -186,13 +180,9 @@ a:hover, a:active {
     left: 250px;
 }
 
-.black-link:link, .black-link:visited {
-    color: black;
-}
+.black-link:link, .black-link:visited {color: black;}
 
-.black-link:hover, .black-link:active {
-    color: white;
-}
+.black-link:hover, .black-link:active {color: white;}
 
 .button {
     position: absolute;
@@ -231,9 +221,7 @@ a:hover, a:active {
     border-radius: 147px;
 }
 
-#index {
-    height: 700px;
-}
+#index {height: 700px;}
 
 /*ABOUT*/
 
@@ -278,13 +266,9 @@ a:hover, a:active {
     color: #000000;
 }
 
-#p9 {
-    top: 240px;
-}
+#p9 {top: 240px;}
 
-#p10 {
-    top: 421px;
-}
+#p10 {top: 421px;}
 
 #p10_1, #p10_2 {
     left: 215px;
@@ -314,9 +298,7 @@ a:hover, a:active {
     min-width: 1123px;
 }
 
-#p10_3 {
-    width: 1000px;
-}
+#p10_3 {width: 1000px;}
 
 .red {
     position: relative;
@@ -343,17 +325,11 @@ a:hover, a:active {
     top: 1360px;
 }
 
-.black-link2:link, .black-link2:visited, .black-link3:link, .black-link3:visited {
-    color:black;
-}
+.black-link2:link, .black-link2:visited, .black-link3:link, .black-link3:visited {color:black;}
 
-.black-link2:hover, .black-link2:active, .black-link3:hover, .black-link3:active {
-    color: white;
-}
+.black-link2:hover, .black-link2:active, .black-link3:hover, .black-link3:active {color: white;}
 
-main {
-    height: 1565px;
-}
+main {height: 1565px;}
 
 #p10_3 {
     width: 742px;
@@ -455,23 +431,21 @@ footer p {
     align-content: start;
   }
 
-  .photo {
-    display: block;
-  }
+.photo {display: block;}
 
-  .photo a {
-    position: relative;
-    display: inline-block;
-    z-index: 10;
-  }
+.photo a {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
 
-  .photo img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    cursor: pointer;
-  }
+.photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
 
 .text {
     width: 9.6%;
@@ -708,8 +682,7 @@ input::placeholder {
 
 #p19 {top: 363px;}
 
-#p19_2 {top: 381px;
-}
+#p19_2 {top: 381px;}
 
 #p19_3 {top: 398px;}
 
@@ -835,11 +808,11 @@ input::placeholder {
 .tip {height: 1540px;}
 
 .back {
-    position: absolute;
+    position: fixed;
     width: 154px;
     height: 57px;
     left: 1350px;
-    top: 1450px;
+    top: 630px;
     font-family: Jockey;
     font-style: normal;
     font-weight: 400;
@@ -854,6 +827,31 @@ input::placeholder {
 .backbutton:link, .backbutton:visited {color: #6A5000;}
 
 .backbutton:hover, .backbutton:active {color: black;}
+
+.font {
+    position: absolute;
+    width: 1004px;
+    height: 177px;
+    left: 196px;
+    top: 390px;
+    font-family: Jockey;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: justify;
+}
+
+#font2 {top: 600px;}
+
+#font3 {top: 815px;}
+
+#font4 {top: 1005px;}
+
+#font5 {top: 1175px;}
 
 /* CATS */
 
